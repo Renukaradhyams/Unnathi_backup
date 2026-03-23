@@ -30,7 +30,7 @@ const Footer = () => {
               </div>
             </Link>
             <p className="text-sm text-steel leading-relaxed mb-4 text-center md:text-left">
-              Leading precision engineering and CNC machining company established in 2007, specializing in high-precision machined components and assemblies for global customers.
+              Leading precision engineering and CNC machining company established in 2008, specializing in high-precision machined components and assemblies for global customers.
             </p>
             <div className="flex gap-3 justify-center md:justify-start">
               {[Facebook, Linkedin, Twitter, Instagram].map((Icon, i) => (
