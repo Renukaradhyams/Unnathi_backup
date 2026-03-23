@@ -4,8 +4,8 @@ import Layout from "@/components/Layout";
 import { buildPageSeo } from "@/seo/pageSeo";
 import SectionHeading from "@/components/SectionHeading";
 import { qualityLabPhotos } from "@config/units.config";
-import certUnit1As9100IsoPdf from "@/assets/6.2a.pdf";
-import certUnit3IsoPdf from "@/assets/6.2b.pdf";
+import certUnit1As9100IsoPdf from "@/assets/Certificates/6.2a.pdf";
+import certUnit3IsoPdf from "@/assets/Certificates/6.2b.pdf";
 import { pageSectionMedia } from "@config/media.config";
 
 const fadeUp = {
@@ -45,17 +45,17 @@ const Quality = () => (
         <SectionHeading label="Certifications" title="Our Quality Credentials" />
         <div className="grid md:grid-cols-2 gap-8">
           {[
-            { 
-              title: "AS9100D & ISO 9001:2015 (Unit-1)", 
-              desc: "Unit-1 certificate for AS9100D and ISO 9001:2015 issued by TÜV SÜD. Valid until 12/12/2027.", 
+            {
+              title: "AS9100D & ISO 9001:2015 (Unit-1)",
+              desc: "Unit-1 certificate for AS9100D and ISO 9001:2015 issued by TÜV SÜD. Valid until 12/12/2027.",
               scope: "CNC Machining, Assembly, and Testing of precision aerospace components.",
               validity: "12/12/2027",
               file: certUnit1As9100IsoPdf,
               preview: pageSectionMedia.quality.sections.certificateUnit1.asset.src,
             },
-            { 
-              title: "ISO 9001:2015 (Unit-3)", 
-              desc: "Unit-3 ISO 9001:2015 certificate for surface treatment and related operations. Valid until 07/01/2029.", 
+            {
+              title: "ISO 9001:2015 (Unit-3)",
+              desc: "Unit-3 ISO 9001:2015 certificate for surface treatment and related operations. Valid until 07/01/2029.",
               scope: "Manufacturing and surface treatment services for stainless steel and other suitable alloys.",
               validity: "07/01/2029",
               file: certUnit3IsoPdf,
@@ -70,7 +70,7 @@ const Quality = () => (
               <h3 className="text-xl font-heading font-semibold text-foreground">{cert.title}</h3>
               <p className="mt-3 text-muted-foreground text-sm">{cert.desc}</p>
               <div className="mt-4 rounded-md overflow-hidden border border-border bg-background">
-                <img src={cert.preview} alt={`${cert.title} certificate`} className="w-full h-52 object-contain" loading="lazy" decoding="async" />
+                <img src={cert.preview} alt={`${cert.title} certificate`} className="w-full h-52 object-contain" loading={cert.title.includes("AS9100D") ? "eager" : "lazy"} fetchPriority={cert.title.includes("AS9100D") ? "high" : undefined} decoding="async" />
               </div>
               <div className="mt-3">
                 <a href={cert.file} target="_blank" rel="noreferrer" className="text-xs font-semibold text-primary hover:underline">

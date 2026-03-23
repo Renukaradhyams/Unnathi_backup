@@ -17,8 +17,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { pageSectionMedia } from "@config/media.config";
-import certUnit1As9100IsoPdf from "@/assets/6.2a.pdf";
-import certUnit3IsoPdf from "@/assets/6.2b.pdf";
+import certUnit1As9100IsoPdf from "@/assets/Certificates/6.2a.pdf";
+import certUnit3IsoPdf from "@/assets/Certificates/6.2b.pdf";
 import { seoImages }  from "@config/images.config";
 import unnathiCatalogPdf from "@/assets/Unnathi_new_catlog.pdf";
 import {
@@ -125,7 +125,7 @@ const Infrastructure = () => {
       {/* ═══ HERO with parallax ═══ */}
       <section ref={heroRef} className="relative pt-36 pb-32 bg-gradient-dark overflow-hidden">
         <motion.div className="absolute inset-0 opacity-20" style={{ y: heroY }}>
-          <img src={pageSectionMedia.infrastructure.sections.hero.asset.src} alt="Manufacturing infrastructure at UNNATHI CNC Bangalore" className="w-full h-full object-cover scale-110" loading="eager" />
+          <img src={pageSectionMedia.infrastructure.sections.hero.asset.src} alt="Manufacturing infrastructure at UNNATHI CNC Bangalore" className="w-full h-full object-cover scale-110" loading="eager" fetchPriority="high" decoding="async" />
         </motion.div>
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal/80 via-charcoal/70 to-charcoal/90" />
         <div className="container relative">
