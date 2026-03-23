@@ -111,7 +111,7 @@ const Index = () => {
             </motion.p>
             <motion.h1 variants={fadeUp} className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading text-primary-foreground leading-[1.08]">
               Precision Engineering<br />
-              <span className="text-accent">Excellence Since 2007</span>
+              <span className="text-accent">Excellence Since 2008</span>
             </motion.h1>
             <motion.p variants={fadeUp} className="mt-6 text-lg md:text-xl text-steel/90 max-w-lg leading-relaxed">
               Delivering high-precision machined components and advanced CNC manufacturing solutions with world-class infrastructure, engineering expertise, and uncompromising quality standards.
@@ -154,16 +154,16 @@ const Index = () => {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={slideLeft}>
               <span className="inline-block text-sm font-semibold tracking-widest uppercase text-primary px-4 py-1.5 rounded-full bg-primary/5 border border-primary/10">About UNNATHI CNC</span>
               <h2 className="mt-5 text-3xl md:text-4xl lg:text-5xl font-heading text-foreground leading-tight">
-                Precision Engineering Since 2007
+                Precision Engineering Since 2008
               </h2>
               <p className="mt-5 text-muted-foreground leading-relaxed text-base">
-                UNNATHI CNC Technologies Pvt. Ltd. is a leading precision engineering and CNC machining company established in 2007 and headquartered in Bangalore, India. The company specializes in manufacturing high-precision machined components and assemblies for global customers across multiple engineering sectors.
+                UNNATHI CNC Technologies Pvt. Ltd. is a leading precision engineering and CNC machining company established in 2008 and headquartered in Bangalore, India. The company specializes in manufacturing high-precision machined components and assemblies for global customers across multiple engineering sectors.
               </p>
               <p className="mt-3 text-muted-foreground leading-relaxed text-base">
                 With advanced CNC infrastructure, experienced engineering teams, and a strong quality-driven culture, we have built a reputation for delivering reliable, high-quality components that meet stringent technical specifications and industry standards.
               </p>
               <div className="mt-8 grid grid-cols-2 gap-3">
-                {["AS9100D Certified", "ISO 9001:2015", "4 Manufacturing Units", "Since 2007"].map((badge) => (
+                {["AS9100D Certified", "ISO 9001:2015", "4 Manufacturing Units", "Since 2008"].map((badge) => (
                   <motion.div key={badge} whileHover={{ scale: 1.05 }} className="flex items-center gap-2 text-sm font-medium text-foreground bg-muted rounded-lg px-4 py-3 hover:bg-primary/5 transition-colors duration-200 border border-transparent hover:border-primary/10">
                     <CheckCircle className="h-4 w-4 text-primary shrink-0" /> {badge}
                   </motion.div>

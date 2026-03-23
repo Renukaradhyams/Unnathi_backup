@@ -169,10 +169,10 @@ const UnitDetail = () => {
               <motion.div key={`${m.brand}-${m.model}-${i}`} variants={scaleUp}
                 className="bg-muted/30 rounded-xl overflow-hidden shadow-card border border-border/50 transition-all duration-300 group cursor-default"
                 whileHover={{ y: -6, transition: { duration: 0.3 } }}>
-                {m.image && (
-                  <div className="h-36 overflow-hidden">
+                {(m.image || m.images?.[0]) && (
+                  <div className="h-36 overflow-hidden relative">
                     <motion.img
-                      src={m.image}
+                      src={m.image || m.images?.[0]}
                       alt={`${m.brand} ${m.model} at UNNATHI CNC ${unit.location}`}
                       className="w-full h-full object-cover"
                       style={{ filter: "var(--img-enhance)" }}
@@ -181,6 +181,11 @@ const UnitDetail = () => {
                       loading="lazy"
                       decoding="async"
                     />
+                  {(m.images?.length || 0) > 1 && (
+                    <div className="absolute right-3 top-3 rounded-full bg-charcoal/75 px-2.5 py-1 text-[11px] font-semibold text-primary-foreground">
+                      {m.images?.length} photos
+                    </div>
+                  )}
                   </div>
                 )}
                 <div className="p-5">
