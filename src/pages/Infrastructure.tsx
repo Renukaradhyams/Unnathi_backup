@@ -17,8 +17,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { pageSectionMedia } from "@config/media.config";
-import certUnit1As9100IsoPdf from "@/assets/6.2a.pdf";
-import certUnit3IsoPdf from "@/assets/6.2b.pdf";
+import certUnit1As9100IsoPdf from "@/assets/Certificates/6.2a.pdf";
+import certUnit3IsoPdf from "@/assets/Certificates/6.2b.pdf";
 import { seoImages }  from "@config/images.config";
 import unnathiCatalogPdf from "@/assets/Unnathi_new_catlog.pdf";
 import {
