@@ -14,7 +14,7 @@ import SectionHeading from "@/components/SectionHeading";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import { pageSectionMedia } from "@config/media.config";
 import { seoImages } from "@config/images.config";
-import homeHeroPhoto from "@/assets/Main_photos/7.1aa.png";
+import homeHeroPhoto from "@/assets/3d_AI_generated/hero-cnc-3d.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
