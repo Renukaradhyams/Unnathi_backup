@@ -125,7 +125,7 @@ const Infrastructure = () => {
       {/* ═══ HERO with parallax ═══ */}
       <section ref={heroRef} className="relative pt-36 pb-32 bg-gradient-dark overflow-hidden">
         <motion.div className="absolute inset-0 opacity-20" style={{ y: heroY }}>
-          <img src={pageSectionMedia.infrastructure.sections.hero.asset.src} alt="Manufacturing infrastructure at UNNATHI CNC Bangalore" className="w-full h-full object-cover scale-110" loading="eager" />
+          <img src={pageSectionMedia.infrastructure.sections.hero.asset.src} alt="Manufacturing infrastructure at UNNATHI CNC Bangalore" className="w-full h-full object-cover scale-110" loading="eager" fetchPriority="high" decoding="async" />
         </motion.div>
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal/80 via-charcoal/70 to-charcoal/90" />
         <div className="container relative">

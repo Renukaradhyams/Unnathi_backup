@@ -96,7 +96,7 @@ const UnitDetail = () => {
       {/* ═══ 1. UNIT HERO with parallax ═══ */}
       <section ref={heroRef} className="relative pt-36 pb-28 bg-gradient-dark overflow-hidden">
         <motion.div className="absolute inset-0 opacity-15" style={{ y: heroY }}>
-          <img src={unit.galleryImages[0]?.src || pageSectionMedia.units.sections.heroFallback.asset.src} alt={`UNNATHI CNC precision machining facility ${unit.location}`} className="w-full h-full object-cover scale-110" style={{ filter: "var(--img-enhance)" }} loading="eager" />
+          <img src={unit.galleryImages[0]?.src || pageSectionMedia.units.sections.heroFallback.asset.src} alt={`UNNATHI CNC precision machining facility ${unit.location}`} className="w-full h-full object-cover scale-110" style={{ filter: "var(--img-enhance)" }} loading="eager" fetchPriority="high" decoding="async" />
         </motion.div>
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal/80 via-charcoal/70 to-charcoal/90" />
         <div className="container relative">

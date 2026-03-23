@@ -93,7 +93,7 @@ const About = () => {
       {/* Hero */}
       <section className="relative pt-36 pb-24 bg-gradient-dark overflow-hidden">
         <div className="absolute inset-0 opacity-15">
-          <img src={pageSectionMedia.about.sections.hero.asset.src} alt="UNNATHI CNC manufacturing facility in Bangalore" title="UNNATHI CNC manufacturing facility in Bangalore" className="w-full h-full object-cover" loading="lazy" decoding="async" />
+          <img src={pageSectionMedia.about.sections.hero.asset.src} alt="UNNATHI CNC manufacturing facility in Bangalore" title="UNNATHI CNC manufacturing facility in Bangalore" className="w-full h-full object-cover" loading="eager" fetchPriority="high" decoding="async" />
         </div>
         <div className="absolute inset-0 bg-charcoal/70" />
         <div className="container relative">
