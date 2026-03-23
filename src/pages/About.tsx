@@ -30,7 +30,7 @@ const scaleUp = {
 };
 
 const milestones = [
-  { year: "2007", event: "Company Founded — Single CNC turning center in rented premises" },
+  { year: "2008", event: "Company Founded — Precision machining company established with a strong focus on CNC capability" },
   { year: "2009", event: "First Major OEM Partnership Established" },
   { year: "2011", event: "ISO 9001 Certification Achieved" },
   { year: "2013", event: "Expanded to Multi-Machine CNC Facility" },
@@ -100,7 +100,7 @@ const About = () => {
           <motion.div initial="hidden" animate="visible" variants={fadeUp}>
             <span className="inline-block px-4 py-1.5 text-xs font-semibold tracking-widest uppercase bg-primary/20 text-primary-foreground rounded-full mb-4 border border-primary/30">Who We Are</span>
             <h1 className="mt-2 text-4xl md:text-6xl font-heading text-primary-foreground">About UNNATHI CNC</h1>
-            <p className="mt-4 text-steel max-w-xl text-lg">Leading precision engineering and CNC machining company delivering excellence since 2007.</p>
+            <p className="mt-4 text-steel max-w-xl text-lg">Leading precision engineering and CNC machining company delivering excellence since 2008.</p>
           </motion.div>
         </div>
       </section>
@@ -111,16 +111,16 @@ const About = () => {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={slideLeft}>
             <h2 className="text-3xl md:text-4xl font-heading text-foreground">Company Profile</h2>
             <p className="mt-5 text-muted-foreground leading-relaxed">
-              Founded in 2007 by experienced technocrats, UNNATHI CNC Technologies began as a small machining facility with a single CNC turning center operating from a rented premises. Through consistent investment in technology, infrastructure, and human expertise, the company has grown into a well-established precision machining organization with multiple production units and advanced CNC equipment.
+              Founded in 2008, Unnathi CNC Technologies Pvt Ltd has grown into a well-established, high-growth precision engineering company with a strong reputation in the global market. From the very beginning, the company has focused on state-of-the-art CNC machining capabilities, enabling it to undertake complex and challenging jobs with the highest level of accuracy and quality.
             </p>
             <p className="mt-3 text-muted-foreground leading-relaxed">
-              Today, the company operates from modern manufacturing facilities equipped with high-precision machining centers, inspection systems, and quality control processes aligned with international standards.
+              Over the years, this commitment to excellence has positioned Unnathi CNC Technologies Pvt Ltd as a trusted partner for aerospace, medical, and advanced engineering sectors worldwide.
             </p>
             <p className="mt-3 text-muted-foreground leading-relaxed">
-              The organization is certified to AS9100D and ISO 9001 quality management systems, demonstrating its commitment to quality excellence and continuous improvement.
+              The organization is certified to AS9100D and ISO 9001:2015 quality management systems, demonstrating its commitment to quality excellence and continuous improvement in every process and every product.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-3">
-              {["AS9100D Certified", "ISO 9001:2015", "100+ Global Clients", "Since 2007"].map((b) => (
+              {["AS9100D Certified", "ISO 9001:2015", "Global Market Focus", "Since 2008"].map((b) => (
                 <motion.div key={b} whileHover={{ scale: 1.05 }} className="flex items-center gap-2 text-sm font-medium text-foreground bg-muted rounded-lg px-3 py-2.5 border border-transparent hover:border-primary/10 transition-all">
                   <CheckCircle className="h-4 w-4 text-primary" /> {b}
                 </motion.div>
