@@ -250,7 +250,7 @@ export const teamMedia = [
 ] as const;
 
 export const seoMedia = {
-  homeHero: createAsset("seo-home-hero", "SEO Hero Image", "seo", "/images/cnc-machining-bangalore-hero.svg", "public/images/cnc-machining-bangalore-hero.svg", "Homepage OG and structured data image.", "image/svg+xml"),
+  homeHero: createAsset("seo-home-hero", "SEO Hero Image", "seo", mainFactory2, "src/assets/Main_photos/7.1a.png", "Homepage OG and structured data image based on the main hero photo.", "image/png"),
   galleryFloor: createAsset("seo-gallery-floor", "SEO Gallery Floor", "seo", "/images/cnc-manufacturing-gallery-floor.svg", "public/images/cnc-manufacturing-gallery-floor.svg", "Gallery structured-data image.", "image/svg+xml"),
   galleryTurning: createAsset("seo-gallery-turning", "SEO Turning Operation", "seo", "/images/cnc-turning-operation.svg", "public/images/cnc-turning-operation.svg", "Gallery structured-data image.", "image/svg+xml"),
   galleryMilling: createAsset("seo-gallery-milling", "SEO Milling Operation", "seo", "/images/cnc-milling-operation.svg", "public/images/cnc-milling-operation.svg", "Gallery structured-data image.", "image/svg+xml"),
