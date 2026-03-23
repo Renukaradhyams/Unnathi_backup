@@ -6,8 +6,8 @@ import { buildPageSeo } from "@/seo/pageSeo";
 import SectionHeading from "@/components/SectionHeading";
 import { certificateMedia, pageSectionMedia } from "@config/media.config";
 import { teamPhotos } from "@config/units.config";
-import certUnit1As9100IsoPdf from "@/assets/6.2a.pdf";
-import certUnit3IsoPdf from "@/assets/6.2b.pdf";
+import certUnit1As9100IsoPdf from "@/assets/Certificates/6.2a.pdf";
+import certUnit3IsoPdf from "@/assets/Certificates/6.2b.pdf";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },

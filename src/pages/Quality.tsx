@@ -4,8 +4,8 @@ import Layout from "@/components/Layout";
 import { buildPageSeo } from "@/seo/pageSeo";
 import SectionHeading from "@/components/SectionHeading";
 import { qualityLabPhotos } from "@config/units.config";
-import certUnit1As9100IsoPdf from "@/assets/6.2a.pdf";
-import certUnit3IsoPdf from "@/assets/6.2b.pdf";
+import certUnit1As9100IsoPdf from "@/assets/Certificates/6.2a.pdf";
+import certUnit3IsoPdf from "@/assets/Certificates/6.2b.pdf";
 import { pageSectionMedia } from "@config/media.config";
 
 const fadeUp = {
