@@ -173,8 +173,8 @@ export const pageMedia = {
   medical: createAsset("page-industry-medical", "Medical / Pharma Parts", "page", medicalParts, "src/assets/industries/medical-parts.jpg", "Industry image for pharma/medical sections.", undefined, ["industries", "medical"]),
   precisionParts: createAsset("page-industry-precision", "Precision Parts", "page", agricultureParts, "src/assets/industries/agriculture-parts.jpg", "Industry image for semiconductor/precision engineering sections.", undefined, ["industries", "precision"]),
   qualityLab: createAsset("page-industry-quality-lab", "Quality Lab", "page", quality6, "src/assets/Unnathi-01- web content/CMM inspection.png", "Industry image for quality-focused and clean-finish sections.", undefined, ["industries", "quality"]),
-  cncMilling: createAsset("page-cnc-milling", "CNC Milling", "page", unit2Machine2, "src/assets/Unnathi-02-web content/machine-2.jpeg", "Supplementary CNC milling hero/support visual.", undefined, ["machining"]),
-  cncTurning: createAsset("page-cnc-turning", "CNC Turning", "page", unit2Machine4, "src/assets/Unnathi-02-web content/Turning machine- Jaguar make.jpeg", "Supplementary CNC turning hero/support visual.", undefined, ["turning"]),
+  cncMilling: createAsset("page-cnc-milling", "CNC Milling", "page", machineBfwBmv60, "src/assets/Unnathi-02-web content/machine-1 BFW Chakra.jpeg", "Supplementary CNC milling hero/support visual.", undefined, ["machining"]),
+  cncTurning: createAsset("page-cnc-turning", "CNC Turning", "page", machineJaguar, "src/assets/Unnathi-02-web content/Turning machine- Jaguar make.jpeg", "Supplementary CNC turning hero/support visual.", undefined, ["turning"]),
 };
 
 export const leadershipMedia = {
