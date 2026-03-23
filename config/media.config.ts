@@ -1,11 +1,5 @@
 import logo from "@/assets/logo.png";
 
-import heroCnc3d from "@/assets/3d_AI_generated/hero-cnc-3d.jpg";
-import heroCnc from "@/assets/3d_AI_generated/hero-cnc.jpg";
-import facility from "@/assets/3d_AI_generated/facility.jpg";
-import facility3d from "@/assets/3d_AI_generated/facility-3d.jpg";
-import cncMilling3d from "@/assets/3d_AI_generated/cnc-milling-3d.jpg";
-import cncTurning3d from "@/assets/3d_AI_generated/cnc-turning-3d.jpg";
 
 import teamGroupPhoto from "@/assets/Group_photos/team-group-photo.jpg";
 import team1 from "@/assets/Group_photos/7.5.png";
@@ -17,8 +11,6 @@ import aerospaceParts from "@/assets/industries/aerospace-parts.jpg";
 import agricultureParts from "@/assets/industries/agriculture-parts.jpg";
 import machineToolsParts from "@/assets/industries/machine-tools-parts.jpg";
 import medicalParts from "@/assets/industries/medical-parts.jpg";
-import precisionParts3d from "@/assets/industries/precision-parts-3d.jpg";
-import qualityLab3d from "@/assets/industries/quality-lab-3d.jpg";
 
 import directorMadhu from "@/assets/directors/1.4a-Madhu sir.png";
 import directorNarayana from "@/assets/directors/1.4b Narayan sir.png";
@@ -160,19 +152,19 @@ export const brandMedia = {
 };
 
 export const pageMedia = {
-  homeHero: createAsset("page-home-hero", "Home Hero CNC Facility", "page", heroCnc3d, "src/assets/3d_AI_generated/hero-cnc-3d.jpg", "Main homepage hero image.", undefined, ["home", "hero"]),
-  infrastructureHero: createAsset("page-infra-hero", "Infrastructure Hero", "page", heroCnc, "src/assets/3d_AI_generated/hero-cnc.jpg", "Infrastructure hero/fallback image.", undefined, ["infrastructure", "hero"]),
-  facility: createAsset("page-facility", "Facility Overview", "page", facility, "src/assets/3d_AI_generated/facility.jpg", "General facility image used across multiple pages.", undefined, ["facility"]),
-  facilityExterior: createAsset("page-facility-exterior", "Facility Exterior", "page", facility3d, "src/assets/3d_AI_generated/facility-3d.jpg", "Contact page hero image.", undefined, ["contact", "hero"]),
+  homeHero: createAsset("page-home-hero", "Home Hero CNC Facility", "page", mainFactory2, "src/assets/Main_photos/7.1a.png", "Main homepage hero image.", undefined, ["home", "hero"]),
+  infrastructureHero: createAsset("page-infra-hero", "Infrastructure Hero", "page", unit4Infra1, "src/assets/Unnathi -04-web content/Bird eye view.png", "Infrastructure hero/fallback image.", undefined, ["infrastructure", "hero"]),
+  facility: createAsset("page-facility", "Facility Overview", "page", mainFactory1, "src/assets/Main_photos/7.1.png", "General facility image used across multiple pages.", undefined, ["facility"]),
+  facilityExterior: createAsset("page-facility-exterior", "Facility Exterior", "page", unit4Infra2, "src/assets/Unnathi -04-web content/building entrance.png", "Contact page hero image.", undefined, ["contact", "hero"]),
   teamGroup: createAsset("page-team-group", "Team Group Photo", "page", teamGroupPhoto, "src/assets/Group_photos/team-group-photo.jpg", "About page team photo.", undefined, ["about", "team"]),
   aerospace: createAsset("page-industry-aerospace", "Aerospace Parts", "page", aerospaceParts, "src/assets/industries/aerospace-parts.jpg", "Industry image for aerospace sections.", undefined, ["industries", "aerospace"]),
   agriculture: createAsset("page-industry-agriculture", "Agriculture Parts", "page", agricultureParts, "src/assets/industries/agriculture-parts.jpg", "Industry image for agriculture sections.", undefined, ["industries", "agriculture"]),
   machineTools: createAsset("page-industry-machine-tools", "Machine Tool Parts", "page", machineToolsParts, "src/assets/industries/machine-tools-parts.jpg", "Industry image for machine tools sections.", undefined, ["industries", "machine-tools"]),
   medical: createAsset("page-industry-medical", "Medical / Pharma Parts", "page", medicalParts, "src/assets/industries/medical-parts.jpg", "Industry image for pharma/medical sections.", undefined, ["industries", "medical"]),
-  precisionParts: createAsset("page-industry-precision", "Precision Parts", "page", precisionParts3d, "src/assets/industries/precision-parts-3d.jpg", "Industry image for semiconductor/precision engineering sections.", undefined, ["industries", "precision"]),
-  qualityLab: createAsset("page-industry-quality-lab", "Quality Lab", "page", qualityLab3d, "src/assets/industries/quality-lab-3d.jpg", "Industry image for quality-focused and clean-finish sections.", undefined, ["industries", "quality"]),
-  cncMilling: createAsset("page-cnc-milling", "CNC Milling", "page", cncMilling3d, "src/assets/3d_AI_generated/cnc-milling-3d.jpg", "Supplementary CNC milling hero/support visual.", undefined, ["machining"]),
-  cncTurning: createAsset("page-cnc-turning", "CNC Turning", "page", cncTurning3d, "src/assets/3d_AI_generated/cnc-turning-3d.jpg", "Supplementary CNC turning hero/support visual.", undefined, ["turning"]),
+  precisionParts: createAsset("page-industry-precision", "Precision Parts", "page", agricultureParts, "src/assets/industries/agriculture-parts.jpg", "Industry image for semiconductor/precision engineering sections.", undefined, ["industries", "precision"]),
+  qualityLab: createAsset("page-industry-quality-lab", "Quality Lab", "page", quality6, "src/assets/Unnathi-01- web content/CMM inspection.png", "Industry image for quality-focused and clean-finish sections.", undefined, ["industries", "quality"]),
+  cncMilling: createAsset("page-cnc-milling", "CNC Milling", "page", unit2Machine2, "src/assets/Unnathi-02-web content/machine-2.jpeg", "Supplementary CNC milling hero/support visual.", undefined, ["machining"]),
+  cncTurning: createAsset("page-cnc-turning", "CNC Turning", "page", unit2Machine4, "src/assets/Unnathi-02-web content/Turning machine- Jaguar make.jpeg", "Supplementary CNC turning hero/support visual.", undefined, ["turning"]),
 };
 
 export const leadershipMedia = {
