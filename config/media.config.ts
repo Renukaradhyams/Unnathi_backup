@@ -36,20 +36,30 @@ import unit3Factory1 from "@/assets/Unnathi-03-web content/7.1h.png";
 import unit4Factory2 from "@/assets/Unnathi -04-web content/7.1k.png";
 import unit4Factory3 from "@/assets/Unnathi -04-web content/7.1l.png";
 
-import unit1Machine1 from "@/assets/Unnathi-01- web content/7.2.png";
-import unit2Machine1 from "@/assets/Unnathi-02-web content/machine-1 BFW Chakra.jpeg";
-import unit2Machine2 from "@/assets/Unnathi-02-web content/machine-2.jpeg";
-import unit2Machine3 from "@/assets/Unnathi-02-web content/machine-3 BFW.jpeg";
-import unit2Machine4 from "@/assets/Unnathi-02-web content/Turning machine- Jaguar make.jpeg";
-import unit2Machine5 from "@/assets/Unnathi-02-web content/Turning machine- Pride make.jpeg";
-import unit2Machine6 from "@/assets/Unnathi-02-web content/Surface grinding- COSMOS.jpeg";
-import unit1Machine2 from "@/assets/Unnathi-01- web content/7.2g.png";
-import unit2Machine7 from "@/assets/Unnathi-02-web content/machine -8 Micromatic.jpeg";
-import unit1Machine3 from "@/assets/Unnathi-01- web content/7.2i.png";
-import unit2Machine8 from "@/assets/Unnathi-02-web content/Wire cutting - electronica.jpeg";
-import unit1Machine4 from "@/assets/Unnathi-01- web content/Orbital welding set up.png";
-import unit1Machine5 from "@/assets/Unnathi-01- web content/Welding process 1.jpeg";
-import unit1Machine6 from "@/assets/Unnathi-01- web content/Welding process 2.jpeg";
+import machineAceJ300lm from "@/assets/Unnathi_machine_instruments/Machine no.02.jpeg";
+import machineAceJobber from "@/assets/Unnathi_machine_instruments/Machine no.06.jpeg";
+import machineHaasSt20 from "@/assets/Unnathi_machine_instruments/Machine no.07.jpeg";
+import machineJaguarLx20 from "@/assets/Unnathi_machine_instruments/machine no.08.jpeg";
+import machineProteck from "@/assets/Unnathi_machine_instruments/Machine no.09.jpeg";
+import machinePrideUnnati from "@/assets/Unnathi_machine_instruments/Machine no.05.png";
+import machineJaguar from "@/assets/Unnathi-02-web content/Turning machine- Jaguar make.jpeg";
+import machinePride from "@/assets/Unnathi-02-web content/Turning machine- Pride make.jpeg";
+import machineBfwChakra from "@/assets/Unnathi_machine_instruments/machine no.10.png";
+import machineHaasDth1 from "@/assets/Unnathi_machine_instruments/Machine no.11.jpeg";
+import machineHaasVf2 from "@/assets/Unnathi_machine_instruments/Machine no.13.png";
+import machineBfwAgni from "@/assets/Unnathi_machine_instruments/machine no.14.jpeg";
+import machinePhillips from "@/assets/Unnathi_machine_instruments/Machine no.16.png";
+import machineBfwBmv60 from "@/assets/Unnathi-02-web content/machine-1 BFW Chakra.jpeg";
+import machineBfwBmv50 from "@/assets/Unnathi-02-web content/machine-3 BFW.jpeg";
+import machineCosmosE1050 from "@/assets/Unnathi_machine_instruments/Machine no.17.jpeg";
+import machineCosmos114 from "@/assets/Unnathi-02-web content/Surface grinding- COSMOS.jpeg";
+import machinePinnacle from "@/assets/Unnathi_machine_instruments/Machine no.18.png";
+import machineMicromaticGcu from "@/assets/Unnathi_machine_instruments/Machine no.20.jpeg";
+import machineMicromaticEco from "@/assets/Unnathi_machine_instruments/Machine no.19.jpeg";
+import machineMicromaticGcuAlt from "@/assets/Unnathi-02-web content/machine -8 Micromatic.jpeg";
+import machineElectronica from "@/assets/Unnathi_machine_instruments/Machine no.21.jpeg";
+import machineElectronicaAlt from "@/assets/Unnathi-02-web content/Wire cutting - electronica.jpeg";
+import machineOrbitron from "@/assets/Unnathi_machine_instruments/machine no.39.png";
 import unit4Machine1 from "@/assets/Unnathi -04-web content/H-boring.png";
 import unit4Machine2 from "@/assets/Unnathi -04-web content/H-boring machine (2).png";
 import unit4Machine3 from "@/assets/Unnathi -04-web content/VTL.jpeg";
@@ -198,23 +208,33 @@ export const factoryMedia = [
 ] as const;
 
 export const machineryMedia = [
-  createAsset("machine-01", "Turning Operation", "machinery", unit1Machine1, "src/assets/Unnathi-01- web content/7.2.png", "Unit 1 machining image."),
-  createAsset("machine-02", "BFW Chakra VMC", "machinery", unit2Machine1, "src/assets/Unnathi-02-web content/machine-1 BFW Chakra.jpeg", "Unit 2 machinery image."),
-  createAsset("machine-03", "VMC Machining Centre", "machinery", unit2Machine2, "src/assets/Unnathi-02-web content/machine-2.jpeg", "Unit 2 machinery image."),
-  createAsset("machine-04", "BFW Machining Centre", "machinery", unit2Machine3, "src/assets/Unnathi-02-web content/machine-3 BFW.jpeg", "Unit 2 machinery image."),
-  createAsset("machine-05", "Jaguar Turning Machine", "machinery", unit2Machine4, "src/assets/Unnathi-02-web content/Turning machine- Jaguar make.jpeg", "Unit 2 machinery image."),
-  createAsset("machine-06", "Pride Turning Machine", "machinery", unit2Machine5, "src/assets/Unnathi-02-web content/Turning machine- Pride make.jpeg", "Unit 2 machinery image."),
-  createAsset("machine-07", "Surface Grinding - Cosmos", "machinery", unit2Machine6, "src/assets/Unnathi-02-web content/Surface grinding- COSMOS.jpeg", "Unit 2 machinery image."),
-  createAsset("machine-08", "Wire Cut Machine", "machinery", unit2Machine8, "src/assets/Unnathi-02-web content/Wire cutting - electronica.jpeg", "Unit 2 machinery image."),
-  createAsset("machine-09", "Micromatic Grinding Machine", "machinery", unit2Machine7, "src/assets/Unnathi-02-web content/machine -8 Micromatic.jpeg", "Unit 2 machinery image."),
-  createAsset("machine-10", "Automatic Clamping Fixture", "machinery", unit1Machine2, "src/assets/Unnathi-01- web content/7.2g.png", "Unit 1 fixture image."),
-  createAsset("machine-11", "Orbital Welding Setup", "machinery", unit1Machine4, "src/assets/Unnathi-01- web content/Orbital welding set up.png", "Unit 1 special process image."),
-  createAsset("machine-12", "Welding Process", "machinery", unit1Machine5, "src/assets/Unnathi-01- web content/Welding process 1.jpeg", "Unit 1 special process image."),
-  createAsset("machine-13", "Additional Welding Process", "machinery", unit1Machine6, "src/assets/Unnathi-01- web content/Welding process 2.jpeg", "Unit 1 special process image."),
+  createAsset("machine-01", "ACE J300LM", "machinery", machineAceJ300lm, "src/assets/Unnathi_machine_instruments/Machine no.02.jpeg", "ACE J300LM machine image."),
+  createAsset("machine-02", "BFW Chakra", "machinery", machineBfwChakra, "src/assets/Unnathi_machine_instruments/machine no.10.png", "BFW Chakra machine image."),
+  createAsset("machine-03", "HAAS DTH1", "machinery", machineHaasDth1, "src/assets/Unnathi_machine_instruments/Machine no.11.jpeg", "HAAS DTH1 machine image."),
+  createAsset("machine-04", "HAAS VF-2", "machinery", machineHaasVf2, "src/assets/Unnathi_machine_instruments/Machine no.13.png", "HAAS VF-2 machine image."),
+  createAsset("machine-05", "PRIDE Unnati-1000", "machinery", machinePrideUnnati, "src/assets/Unnathi_machine_instruments/Machine no.05.png", "PRIDE Unnati-1000 machine image."),
+  createAsset("machine-06", "ACE JOBBER LM", "machinery", machineAceJobber, "src/assets/Unnathi_machine_instruments/Machine no.06.jpeg", "ACE JOBBER LM machine image."),
+  createAsset("machine-07", "COSMOS E1050", "machinery", machineCosmosE1050, "src/assets/Unnathi_machine_instruments/Machine no.17.jpeg", "COSMOS E1050 machine image."),
+  createAsset("machine-08", "Electronica Wire Cut", "machinery", machineElectronica, "src/assets/Unnathi_machine_instruments/Machine no.21.jpeg", "Electronica wire cut machine image."),
+  createAsset("machine-09", "Micromatic GCU-350", "machinery", machineMicromaticGcu, "src/assets/Unnathi_machine_instruments/Machine no.20.jpeg", "Micromatic GCU-350 machine image."),
+  createAsset("machine-10", "BFW BMV60 TC20", "machinery", machineBfwBmv60, "src/assets/Unnathi-02-web content/machine-1 BFW Chakra.jpeg", "BFW BMV60 TC20 machine image."),
+  createAsset("machine-11", "ORBITRON 7000", "machinery", machineOrbitron, "src/assets/Unnathi_machine_instruments/machine no.39.png", "Orbitron orbital welding image."),
+  createAsset("machine-12", "JAGUAR LX20TL5", "machinery", machineJaguarLx20, "src/assets/Unnathi_machine_instruments/machine no.08.jpeg", "Jaguar LX20TL5 machine image."),
+  createAsset("machine-13", "PROTECK PL 500U", "machinery", machineProteck, "src/assets/Unnathi_machine_instruments/Machine no.09.jpeg", "Proteck PL 500U machine image."),
   createAsset("machine-14", "H-Boring Machine", "machinery", unit4Machine1, "src/assets/Unnathi -04-web content/H-boring.png", "Unit 4 heavy-machining image."),
   createAsset("machine-15", "H-Boring Machine - Alternate View", "machinery", unit4Machine2, "src/assets/Unnathi -04-web content/H-boring machine (2).png", "Unit 4 heavy-machining image."),
   createAsset("machine-16", "VTL Machine", "machinery", unit4Machine3, "src/assets/Unnathi -04-web content/VTL.jpeg", "Unit 4 heavy-machining image."),
-  createAsset("machine-17", "Orbital Welding", "machinery", unit1Machine3, "src/assets/Unnathi-01- web content/7.2i.png", "Unit 1 orbital welding image."),
+  createAsset("machine-17", "Pride Turning Machine", "machinery", machinePride, "src/assets/Unnathi-02-web content/Turning machine- Pride make.jpeg", "Pride turning machine image."),
+  createAsset("machine-18", "JAGUAR Turning Machine", "machinery", machineJaguar, "src/assets/Unnathi-02-web content/Turning machine- Jaguar make.jpeg", "Jaguar turning machine image."),
+  createAsset("machine-19", "BFW AGNI +", "machinery", machineBfwAgni, "src/assets/Unnathi_machine_instruments/machine no.14.jpeg", "BFW AGNI+ machine image."),
+  createAsset("machine-20", "PHILLIPS PVM-1165", "machinery", machinePhillips, "src/assets/Unnathi_machine_instruments/Machine no.16.png", "Phillips PVM-1165 machine image."),
+  createAsset("machine-21", "BFW BMV50 TC24", "machinery", machineBfwBmv50, "src/assets/Unnathi-02-web content/machine-3 BFW.jpeg", "BFW BMV50 TC24 machine image."),
+  createAsset("machine-22", "COSMOS 114", "machinery", machineCosmos114, "src/assets/Unnathi-02-web content/Surface grinding- COSMOS.jpeg", "COSMOS 114 machine image."),
+  createAsset("machine-23", "PINNACLE Grinder", "machinery", machinePinnacle, "src/assets/Unnathi_machine_instruments/Machine no.18.png", "Pinnacle grinder image."),
+  createAsset("machine-24", "Micromatic ECO-200U", "machinery", machineMicromaticEco, "src/assets/Unnathi_machine_instruments/Machine no.19.jpeg", "Micromatic ECO-200U machine image."),
+  createAsset("machine-25", "Micromatic GCU-350 Alternate", "machinery", machineMicromaticGcuAlt, "src/assets/Unnathi-02-web content/machine -8 Micromatic.jpeg", "Micromatic alternate machine image."),
+  createAsset("machine-26", "Electronica Wire Cut - Alternate", "machinery", machineElectronicaAlt, "src/assets/Unnathi-02-web content/Wire cutting - electronica.jpeg", "Electronica alternate wire cut image."),
+  createAsset("machine-27", "HAAS ST 20", "machinery", machineHaasSt20, "src/assets/Unnathi_machine_instruments/Machine no.07.jpeg", "HAAS ST 20 machine image."),
 ] as const;
 
 export const infrastructureMedia = [
@@ -234,11 +254,11 @@ export const infrastructureMedia = [
 ] as const;
 
 export const qualityMedia = [
-  createAsset("quality-01", "CMM Inspection", "quality", quality1, "src/assets/Unnathi_machine_instruments/Instruments/CMM.png", "Quality gallery image."),
-  createAsset("quality-02", "Contour Instrument", "quality", quality2, "src/assets/Unnathi_machine_instruments/Instruments/Contour instrument.png", "Quality gallery image."),
-  createAsset("quality-03", "Height Master", "quality", quality3, "src/assets/Unnathi_machine_instruments/Instruments/Height master.png", "Quality gallery image."),
-  createAsset("quality-04", "Vision Measuring System", "quality", quality4, "src/assets/Unnathi_machine_instruments/Instruments/VMS.png", "Quality gallery image."),
-  createAsset("quality-05", "Surface Roughness Instrument", "quality", quality5, "src/assets/Unnathi_machine_instruments/Instruments/surface roughness.png", "Quality gallery image."),
+  createAsset("quality-01", "TESA 454", "quality", quality1, "src/assets/Unnathi_machine_instruments/Instruments/CMM.png", "TESA 454 instrument image."),
+  createAsset("quality-02", "ZEISS 1600G", "quality", quality2, "src/assets/Unnathi_machine_instruments/Instruments/Contour instrument.png", "ZEISS 1600G instrument image."),
+  createAsset("quality-03", "Height Master", "quality", quality3, "src/assets/Unnathi_machine_instruments/Instruments/Height master.png", "Height master image."),
+  createAsset("quality-04", "ZEISS 1600G / VMS", "quality", quality4, "src/assets/Unnathi_machine_instruments/Instruments/VMS.png", "ZEISS 1600G / VMS image."),
+  createAsset("quality-05", "ZEISS Surfcom", "quality", quality5, "src/assets/Unnathi_machine_instruments/Instruments/surface roughness.png", "ZEISS Surfcom image."),
   createAsset("quality-06", "CMM Inspection Room", "quality", quality6, "src/assets/Unnathi-01- web content/CMM inspection.png", "Quality gallery image."),
   createAsset("quality-07", "QC Room", "quality", quality7, "src/assets/Unnathi-01- web content/QC room.png", "Quality gallery image."),
 ] as const;
